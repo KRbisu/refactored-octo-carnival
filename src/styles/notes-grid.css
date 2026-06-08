@@ -1,0 +1,30 @@
+.notes-grid {
+  padding-bottom: 8rem;
+}
+
+.notes-grid .container {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(320px, 1fr));
+
+  gap: 3rem;
+}
+
+.notes-grid article {
+  cursor: pointer;
+}
+
+.notes-grid h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+
+  transition: opacity 0.3s;
+}
+
+.notes-grid article:hover h3 {
+  opacity: 0.6;
+}
+
+.notes-grid p {
+  color: var(--muted);
+}

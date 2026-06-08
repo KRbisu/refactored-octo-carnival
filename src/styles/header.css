@@ -1,0 +1,29 @@
+.site-header {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.branding h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.branding p {
+  margin-top: 1rem;
+  max-width: 520px;
+  color: var(--muted);
+}
+
+.search-button {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
